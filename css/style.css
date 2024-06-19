@@ -1,0 +1,120 @@
+/* -------------------- header -------------------- */
+
+
+body {
+  font-family: fantasy, Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+}
+#header {
+    background: black;
+    color: white;
+    align-items: top;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* -------------------- caixa -------------------- */
+
+.container {
+  background-color: #ebdbe077;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container #forms {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#forms div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+
+.dividir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dividir div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: last baseline;
+}
+
+.container h2 {
+  margin-bottom: 0px;
+  font-size: 24px;
+  color: #333;
+}
+
+.container strong {
+  margin-bottom: 1px;
+  font-size: 25px;
+  color: #ff4081;
+}
+
+.container p {
+  margin: 8px 10px;
+  font-size: 13px;
+  text-align: left;
+  color: #665;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+  padding: 10px;
+  margin: 10px 5px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.container input[type="email"],
+.container input[type="password"] {
+  width: calc(100% - 3px);
+}
+
+.container button {
+  background-color: #ff4081;
+  color: white;
+  padding: 15px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: fantasy, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.container button:hover {
+  background-color: #e91e63;
+}
+
+/* -------------------- footer -------------------- */
+
+#footer {
+    color: #333;
+    background-color: #ebdbe077;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
